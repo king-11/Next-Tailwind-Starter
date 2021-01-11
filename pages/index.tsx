@@ -6,6 +6,7 @@ export default function Home() {
       <Nav />
       <div className="md:flex bg-white rounded-lg p-24 justify-center">
         <img
+          alt="avatar king-11 Lakshya"
           className="h-16 w-16 md:h-24 md:w-24 rounded-full mx-auto md:mx-0 md:mr-6"
           src="https://avatars.githubusercontent.com/king-11"
         />

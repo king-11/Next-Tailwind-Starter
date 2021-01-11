@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "format": "prettier --write ./components/** ./pages/** --ignore-path ./.gitignore",
-    "lint": "eslint ./components/** ./pages/** --quiet",
+    "lint": "eslint ./components/** ./pages/** ./pages/api --ext ts,tsx",
     "lint:fix": "yarn lint --fix"
   },
   "dependencies": {
