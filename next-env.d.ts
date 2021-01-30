@@ -1,2 +1,15 @@
 /// <reference types="next" />
 /// <reference types="next/types/global" />
+
+declare module "*.scss" {
+  const css: { [key: string]: string };
+  export default css;
+}
+declare module "*.css" {
+  const css: { [key: string]: string };
+  export default css;
+}
+declare module "*.webp";
+declare module "*.png";
+declare module "*.jpg";
+declare module "*.jpeg";
